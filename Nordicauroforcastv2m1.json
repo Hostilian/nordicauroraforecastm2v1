@@ -1,0 +1,44 @@
+{
+  "annotations": {
+    "changelogDate": "20240816150431"
+  },
+  "dto": "mapstruct",
+  "fields": [
+    {
+      "fieldName": "date",
+      "fieldType": "LocalDate",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "location",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "kpIndex",
+      "fieldType": "Float",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "probability",
+      "fieldType": "Float",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "visibility",
+      "fieldType": "String",
+      "fieldValidateRules": []
+    },
+    {
+      "fieldName": "bestViewingTime",
+      "fieldType": "ZonedDateTime"
+    }
+  ],
+  "jpaMetamodelFiltering": true,
+  "name": "Nordicauroforcastv2m1",
+  "pagination": "infinite-scroll",
+  "readOnly": true,
+  "relationships": [],
+  "searchEngine": "no",
+  "service": "serviceClass"
+}
